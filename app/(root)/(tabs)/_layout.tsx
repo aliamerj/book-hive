@@ -27,7 +27,7 @@ const TabsLayout = () => {
         }),
       }}>
       <Tabs.Screen
-        name="home"
+        name="index"
         options={{
           title: 'My Library',
           tabBarIcon: ({ color }) => <IconSymbol size={30} name="books.vertical.fill" color={color} />,
